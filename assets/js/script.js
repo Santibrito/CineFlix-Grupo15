@@ -1,3 +1,5 @@
+const URL = "https://santibrito.github.io/CineFlix-Grupo15/assets/js/data.json"
+
 /**
  * Carga las películas desde un archivo JSON.
  * 
@@ -5,7 +7,7 @@
  * @returns {Promise} Una promesa que se resuelve con los datos cargados del archivo JSON.
  */
 function requestDataMovies() {
-    fetch('/assets/js/data.json')
+    fetch(URL)
         .then(response => {
             if (!response.ok) throw new Error('Network response was not ok');
             return response.json();
