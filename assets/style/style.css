@@ -16,7 +16,3 @@
     --weight-semi-bold: 600;
     --weight-bold: 700;
 }
-
-body{
-    background-color: var(--bg-black);
-}

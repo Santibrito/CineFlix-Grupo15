@@ -1,0 +1,105 @@
+{
+  "bestMovies":[
+     {
+        "name":"Avatar 2",
+        "img":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/42F4FD8F0AE08ADF080BEBC82DFA0C2BBA63146A19D98991E86A0921216B7431/scale?width=1440&aspectRatio=1.78&format=jpeg",
+        "pg":14,
+        "duration":"3hr 12m",
+        "description":"Avatar nos lleva al fantástico mundo de Pandora, donde un hombre se embarca en una aventura épica y termina luchando para salvar a la gente a la que ama y al lugar al que ahora llama hogar."
+     },
+     {
+        "name":"Intensa-Mente",
+        "img":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BAF7BCC3253890370F72C5555FD39C1AEEFC327D1F7300058AA397BC84378A9A/scale?width=1440&aspectRatio=1.78&format=jpeg",
+        "pg":7,
+        "duration":"1hr 34m",
+        "description":"Cuando Riley se muda, sus emociones, Alegría, Temor, Furia, Desagrado y Tristeza trabajan juntos, pero cuando Alegría y Tristeza se pierden, deben viajar por lugares desconocidos para volver a casa."
+     },
+     {
+        "name":"Los Simpson: La película",
+        "img":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4A43201701F456A70F1EE5FBF95D56475BC98873A7948741D4FEDCB5CFBCFEB7/scale?width=1600&aspectRatio=1.78&format=webp",
+        "pg":13,
+        "duration":"1h 28m",
+        "description":"Homero debe salvar a la ciudad de Springfield de una catástrofe que él mismo ha creado. Todo empieza con Homero, su nueva mascota, que es un cerdo, y un silo lleno de excremento que comienza a filtrar. Esta combinación desencadena un desastre y una turba en busca de venganza."
+     }
+  ],
+  "latestReleases":[
+     {
+        "name":"Avengers: Endgame",
+        "img":"https://es.web.img2.acsta.net/pictures/19/03/26/17/22/0896830.jpg",
+        "duration":"3hr 1m",
+        "type":"Fantasía"
+     },
+     {
+        "name":"El origen",
+        "img":"https://m.media-amazon.com/images/M/MV5BMTUzMzUyOTktNmYyNS00YTA1LWIxNmQtMGIzZDYxZGI3OTliXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UY2812_.jpg",
+        "duration":"2hr 28m",
+        "type":"Thriller"
+     },
+     {
+        "name":"El caballero oscuro",
+        "img":"https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UY2048_.jpg",
+        "duration":"2hr 32m",
+        "type":"Acción"
+     },
+     {
+        "name":"El señor de los anillos: Las dos torres",
+        "img":"https://es.web.img3.acsta.net/medias/nmedia/18/89/85/69/20070008.jpg",
+        "duration":"2hr 59m",
+        "type":"Fantasía"
+     },
+     {
+        "name":"El lobo de Wall Street",
+        "img":"https://m.media-amazon.com/images/M/MV5BYTIzN2ZlMWEtYmRmMi00YWRlLThkZWYtMjZjNTliMWU4NGJkXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UY5000_.jpg",
+        "duration":"2hr",
+        "type":"Comedia"
+     },
+     {
+        "name":"Top Gun: Maverick",
+        "img":"https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UY3750_.jpg",
+        "duration":"2hr 10m",
+        "type":"Acción"
+     },
+     {
+        "name":"Interstellar",
+        "img":"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UY3600_.jpg",
+        "duration":"2hr 49m",
+        "type":"Drama"
+     },
+     {
+        "name":"Piratas del Caribe: La maldición de la Perla Negra",
+        "img":"https://m.media-amazon.com/images/M/MV5BOWJkZjgyYWItYjhmMy00NWZlLThhNjctMzhiMTkxM2JiMjdjXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX1000_.jpg",
+        "duration":"2hr 23m",
+        "type":"Fantasía"
+     }
+  ],
+  "upcomingMovies":[
+     {
+        "name":"Avengers: Endgame",
+        "description":"Después de tres aventuras en donde desafió a la muerte y derrotó a grandes villanos con su inigualable valentía y sus increíbles habilidades en artes marciales...",
+        "img":"https://revistabombea.com/wp-content/uploads/2024/03/maxresdefault-1.jpg",
+        "duration":"1hr 34m",
+        "type":"Fantasía"
+     },
+     {
+        "name":"El Señor de los Anillos: la Guerra de los Rohirrim",
+        "description":"La historia jamás contada del Abismo de Helm, cientos de años antes de la fatídica guerra, que narra la vida y los tiempos ensangrentados de su fundador, Helm Hammerhand, el rey de Rohan.",
+        "img":"https://m.media-amazon.com/images/M/MV5BYjI1NTMzNjgtYjFmOS00YzFjLTg3MTEtMDgxZTcwZTE2NDM2XkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_FMjpg_UX1200_.jpg",
+        "duration":"2hr 10m",
+        "type":"Fantasía"
+     },
+     {
+        "name":"El reino del planeta de los simios",
+        "description":"Muchos años después del reinado de César, un joven simio emprende un viaje que lo llevará a cuestionar todo lo que le han enseñado sobre el pasado y a tomar decisiones que definirán el futuro tanto para los simios como para los humanos.",
+        "img":"https://m.media-amazon.com/images/M/MV5BZGI4NTEwNTAtZDcwMi00MDkxLTg1OGYtNTZmMzE3ZDljNzVlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UY3000_.jpg",
+        "duration":"2hr 25m",
+        "type":"Aventuras"
+     },
+     {
+        "name":"Civil War",
+        "description":"En un futuro próximo, un equipo de periodistas viajará por los Estados Unidos durante una guerra civil que se intensifica rápidamente y que se ha apoderado de toda la nación.",
+        "img":"https://m.media-amazon.com/images/M/MV5BMzk5MGRkNTQtODBhMS00YjkzLWEzNDItN2RmMWNlMTNkNDAyXkEyXkFqcGdeQXVyMzUxNTM4ODc@._V1_FMjpg_UY2315_.jpg",
+        "duration":"1hr 49m",
+        "type":"Aventuras"
+     }
+  ]
+}
