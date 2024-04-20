@@ -25,7 +25,7 @@ requestDataMovies();
  * @returns {void}
  */
 function showContent(element) {
-    let carouselActive = true; 
+    let carouselActive = true;
     element.forEach(dataElement => {
         headerComponent(dataElement, carouselActive);
         carouselActive = false;
@@ -65,31 +65,37 @@ function headerComponent(dataElement, carouselActive) {
     carouselContainer.appendChild(carousel);
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+/**
+ * Función para mostrar un loader por un tiempo determinado y luego mostrar el contenido.
+ * 
+ * @param {number} loaderDuration - Duración en milisegundos del loader.
+ * @param {number} fadeDuration - Duración en milisegundos del efecto de fade.
+ */
+function showLoader(loaderDuration, fadeDuration) {
+    function fadeOutLoader() {
+        loader.style.transition = "opacity " + fadeDuration / 1000 + "s ease";
+        loader.style.opacity = 0;
+
+        setTimeout(function () {
+            loader.style.display = "none";
+            fadeInContent();
+        }, fadeDuration);
+    }
+    function fadeInContent() {
+        content.style.display = "block";
+        content.style.opacity = 0;
+        setTimeout(function () {
+            content.style.transition = "opacity " + fadeDuration / 1000 + "s ease";
+            content.style.opacity = 1;
+        }, 100);
+    }
+
     var loader = document.getElementById('loader');
     var content = document.getElementById('content');
-  
-    setTimeout(function() {
-      fadeOutLoader();
-    }, 3000);
-  
-    function fadeOutLoader() {
-      loader.style.transition = "opacity 1s ease";
-      loader.style.opacity = 0;
-  
-      setTimeout(function() {
-        loader.style.display = "none";
-        fadeInContent();
-      }, 1000);
-    }
-  
-    function fadeInContent() {
-      content.style.display = "block"; 
-      content.style.opacity = 0;
-      setTimeout(function() {
-        content.style.transition = "opacity 1s ease";
-        content.style.opacity = 1;
-      }, 100);
-    }
-  });
-  
+
+    setTimeout(function () {
+        fadeOutLoader();
+    }, loaderDuration);
+}
+
+showLoader(3000, 1000); // Ejemplo de duración del loader de 3 segundos y efecto de fade de 1 segundo
