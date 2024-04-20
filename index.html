@@ -14,7 +14,11 @@
 </head>
 
 <body>
-    <header class="header-container">
+    <div id="loader">
+        <img src="./assets/img/loader.gif" alt="Loader">
+    </div>
+
+    <header class="header-container" id="content" style="display: none;">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner" id="header-movies">
             </div>
@@ -31,7 +35,7 @@
         </button>
     </header>
 
-    <main>
+    <main id="content" style="display: none;">
         <!-- Ultimos lanzamientos -->
         <section></section>
 
@@ -39,7 +43,7 @@
         <section></section>
     </main>
 
-    <footer>
+    <footer id="content" style="display: none;">
 
     </footer>
 

@@ -32,7 +32,6 @@ function showContent(element) {
     });
 }
 
-
 /**
  * Genera y muestra un elemento de carrusel de películas en el encabezado.
  * 
@@ -66,3 +65,31 @@ function headerComponent(dataElement, carouselActive) {
     carouselContainer.appendChild(carousel);
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+    var loader = document.getElementById('loader');
+    var content = document.getElementById('content');
+  
+    setTimeout(function() {
+      fadeOutLoader();
+    }, 3000);
+  
+    function fadeOutLoader() {
+      loader.style.transition = "opacity 1s ease";
+      loader.style.opacity = 0;
+  
+      setTimeout(function() {
+        loader.style.display = "none";
+        fadeInContent();
+      }, 1000);
+    }
+  
+    function fadeInContent() {
+      content.style.display = "block"; 
+      content.style.opacity = 0;
+      setTimeout(function() {
+        content.style.transition = "opacity 1s ease";
+        content.style.opacity = 1;
+      }, 100);
+    }
+  });
+  
