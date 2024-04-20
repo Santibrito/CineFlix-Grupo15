@@ -197,6 +197,7 @@ main {
 	color: white;
 	align-items: center;
 	h4 {
+		margin-bottom: 0 !important;
 		font-weight: var(--weight-semi-bold);
 	}
 
