@@ -47,12 +47,12 @@ body {
 /* Header */
 
 .header-container {
+	margin-bottom: 10vh;
 	position: relative;
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(15, 14, 22)), url("../img/bg-header.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 	.imagen-superpuesta {
 		position: absolute;
 		top: 0;
@@ -140,10 +140,15 @@ body {
 	}
 }
 
+main{
+	section{
+		padding-top: 4vh;
+	}
+}
+
 @media screen and (max-width: 1440px) {
-
-
 	.header-container {
+		margin-bottom: 2vh;
 		.imagen-superpuesta {
 			background-position: 70%;
 			opacity: 20%;
@@ -171,4 +176,11 @@ body {
 			display: none;
 		}
 	}
+
+	main{
+		section{
+			padding-top: 3vh;
+		}
+	}
+	
 }
